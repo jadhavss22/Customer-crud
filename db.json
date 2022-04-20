@@ -1,0 +1,105 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "eswfa",
+      "address": "dgrxz",
+      "amount": "7532",
+      "mobile": "6854985456",
+      "gender": "male",
+      "city": "Pune",
+      "hobbies": true
+    },
+    {
+      "id": 2,
+      "name": "weaf",
+      "address": "aesf",
+      "amount": "7532",
+      "mobile": "4152369874",
+      "gender": "female",
+      "city": "Kolhapur",
+      "hobbies": true
+    },
+    {
+      "id": 3,
+      "name": "eswfa",
+      "address": "asffs",
+      "amount": "3245324",
+      "mobile": "6854985456",
+      "gender": "female",
+      "city": "Mumbai"
+    }
+  ],
+  "login": [
+    {
+      "email": "user@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 1
+    },
+    {
+      "email": "pranavtelavane@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 2
+    },
+    {
+      "email": "user123@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 3
+    },
+    {
+      "name": "sasrth",
+      "email": "user123@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 4
+    },
+    {
+      "name": "sasrth",
+      "email": "user123@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 5
+    },
+    {
+      "name": "sasrth",
+      "email": "user@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 6
+    },
+    {
+      "name": "pranav",
+      "email": "pranavtelavane@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 7
+    },
+    {
+      "name": "pranav",
+      "email": "user@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 8
+    },
+    {
+      "name": "pranav",
+      "email": "user@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 9
+    },
+    {
+      "name": "sasrth",
+      "email": "user@gmail.com",
+      "password": "123",
+      "repeate": "123",
+      "id": 10
+    }
+  ],
+  "profile": {
+    "name": "tyicode"
+  }
+}

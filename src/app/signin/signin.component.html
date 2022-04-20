@@ -1,0 +1,88 @@
+
+
+<section class="vh-100 bg-image" style="background-color: #508bfc;">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5">Sign Up</h2>
+  
+                <form [formGroup]="signin" (ngSubmit)="onsubmit()">
+  
+                  <div class="form-outline mb-4">
+                    <input type="text"formControlName="name"  id="form3Example1cg" class="form-control form-control-lg"
+                    [ngClass]="{ 'is-invalid': submitted && f['name'].errors }"/>
+                    <label class="form-label" for="form3Example1cg">Your Name</label>
+                    <div *ngIf="submitted && f['name'].errors" class="invalid-feedback">
+                      <span *ngIf="submitted && f['name'].errors['required']">
+                        Please enter your name
+                      </span>
+                  </div>
+  
+                  <div class="form-outline mb-4">
+                    <input type="email" formControlName="email" id="form3Example3cg" class="form-control form-control-lg"
+                    [ngClass]="{ 'is-invalid': submitted && f['email'].errors }"  />
+                    <!-- <label class="form-label" for="typeEmailX-2">Email</label> -->
+                    <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                      <span *ngIf="submitted && f['email'].errors['required']">
+                        Please enter your email
+                      </span>
+                      <span *ngIf="submitted && f['email'].errors['pattern']">
+                        Please enter correct email
+                      </span>
+                    </div>
+                    <label class="form-label" for="form3Example3cg">Your Email</label>
+                  </div>
+  
+                  <div class="form-outline mb-4">
+                    <input type="password" formControlName="password" id="form3Example4cg" class="form-control form-control-lg" 
+                    [ngClass]="{ 'is-invalid': submitted && f['password'].errors }" />
+                    <label class="form-label" for="form3Example4cg">Password</label>
+                    <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+                        <span *ngIf="submitted && f['password'].errors['required']">
+                          Please enter your password
+                        </span>
+                      </div>
+                  </div>
+  
+                  <div class="form-outline mb-4">
+                    <input type="password" formControlName="repeate" id="form3Example4cdg" class="form-control form-control-lg" 
+                    [ngClass]="{ 'is-invalid': submitted && f['repeate'].errors }"/>
+                    <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                    <div *ngIf="submitted && f['repeate'].errors" class="invalid-feedback">
+                        <span *ngIf="submitted && f['repeate'].errors['required']">
+                          Please enter your password
+                        </span>
+                      </div>
+                  </div>
+  
+                  <div class="form-check d-flex justify-content-center mb-5">
+                    <input
+                      class="form-check-input me-2"
+                      type="checkbox"
+                      value=""
+                      id="form2Example3cg"
+                    />
+                    <label class="form-check-label" for="form2Example3g">
+                      I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                    </label>
+                  </div>
+  
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" (click)="onsubmit()">Register</button>
+                  </div>
+  
+                  <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a></p>
+  
+                
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
